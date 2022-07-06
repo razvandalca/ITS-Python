@@ -132,7 +132,7 @@
 # User selects a letter , if present in word , the letter reveals itself
 # The user has 5 lives, game ends if the user finds all letters of the word or runs out of lives
 
-import  random
+# import  random
 
 # words = ['casa', 'python', 'masina', 'autobuz']
 

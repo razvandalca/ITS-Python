@@ -147,21 +147,21 @@ my_list = [0, 22, 41, 63, 82, 101, 122, 143, 167, 181]
 # Scrie o functie care sa iti returneze o lista cu toate elementele pare pana la limita primita ca si argument
 # newlist = [item for item in iterable if condition == True]
 
-def create_even_list(min_number, max_number):
-    return [item for item in range(min_number,max_number+1) if item%2 ==0]
-
+# def create_even_list(min_number, max_number):
+#     return [item for item in range(min_number,max_number+1) if item%2 ==0]
 #
-# print(create_even_list(10,20))
-
-
-# Scrie o functie care sa calculeze suma unei liste de numere primite ca si argument
-
-def sum_list(a_list):
-    result_sum = 0
-    for number in a_list:
-        result_sum += number
-    return result_sum
-
-even_list = create_even_list(0,10)
-our_sum = sum_list(even_list)
-print(our_sum)
+# #
+# # print(create_even_list(10,20))
+#
+#
+# # Scrie o functie care sa calculeze suma unei liste de numere primite ca si argument
+#
+# def sum_list(a_list):
+#     result_sum = 0
+#     for number in a_list:
+#         result_sum += number
+#     return result_sum
+#
+# even_list = create_even_list(0,10)
+# our_sum = sum_list(even_list)
+# print(our_sum)
